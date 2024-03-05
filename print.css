@@ -4,5 +4,12 @@
         display: none;
     }
 
-    
+   
+a[href]::after {
+    content: " --> " attr( href )
+  }
+
+  @page {
+    margin: 1in;
+  }
 }
