@@ -30,7 +30,7 @@ https://cdn.plyr.io/3.7.8/plyr.css
 }
 
 body {
-  background-image: url(https://assets.codepen.io/16425/blackbg.jpg);
+  background-color: rgb(16, 49, 16);
   background-repeat: no-repeat;
   font-family: "Open Sans", sans-serif;
 }
