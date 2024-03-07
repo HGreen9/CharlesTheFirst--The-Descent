@@ -1,3 +1,88 @@
-body{
-    background: #bd2424;
+/* CSS for for Plyr Plugin  
+https://cdn.plyr.io/3.7.8/plyr.css
+*/
+
+/* install it */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* CSS Variables */
+:root {
+    /* main UI color */
+    --plyr-color-main: #b7142e;
+    /* audio controls background */
+    --plyr-audio-controls-background: #808080;
+    /* audio controls color */
+    --plyr-audio-control-color: #0c0f16;
+
+    --plyr-audio-control-color-hover: b7142e;
+
+    --plyr-audio-progress-buffered-background: #808080;
+
+    --plyr-audio-range-track-background: #0c0f16;
+    
+    --plyr-font-family: sans-serif;
+    --plyr-font-size-time: 32px;
+
+    --plyr-tooltip-background: b7142e;
+    --plyr-tooltip-color: black; 
+
+    --plyr-control-icon-size: 32px;
+}
+
+body {
+  background-image: url(https://assets.codepen.io/16425/blackbg.jpg);
+  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Layout */
+main {
+  background-color: #b7142fbd; 
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+main img {
+    max-width: 100%;
+    display: block;
+}
+
+main h1 {
+  color: white;
+  text-align: center;
+}
+
+main article {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  margin-top: 30px;
+}
+
+main article figure {
+  background: #808080;
+  color: white;
+  padding: 1em;
+  margin: 0;
+}
+
+
+/* Media Query */
+@media  (max-width: 500px) {
+  
+  :root {
+    --plyr-font-size-time: 20px;
+    --plyr-control-icon-size: 20px;
+  }
+  
+  main h1 {
+    font-size: .95em;
+  }
+  
+  main article {
+    flex-direction: column;
+  }
+  
 }
