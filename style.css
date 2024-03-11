@@ -3,41 +3,51 @@ https://cdn.plyr.io/3.7.8/plyr.css
 */
 
 /* install it */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+h1 {
+  font-family: "Courgette", cursive;
+  font-size: 62px;
+}
+
+p {
+  font-family: "Crimson Pro", serif;
+  font-size: 20px;
+}
 
 /* CSS Variables */
 :root {
     /* main UI color */
-    --plyr-color-main: #b7142e;
+    --plyr-color-main: #15311c;
     /* audio controls background */
-    --plyr-audio-controls-background: #808080;
+    --plyr-audio-controls-background: rgb(63, 78, 57);
     /* audio controls color */
     --plyr-audio-control-color: #0c0f16;
 
-    --plyr-audio-control-color-hover: b7142e;
+    --plyr-audio-control-color-hover: #6c3a27;
 
-    --plyr-audio-progress-buffered-background: #808080;
+    --plyr-audio-progress-buffered-background: #40573b;
 
     --plyr-audio-range-track-background: #0c0f16;
     
-    --plyr-font-family: sans-serif;
+    --plyr-font-family: serif;
     --plyr-font-size-time: 32px;
 
-    --plyr-tooltip-background: b7142e;
+    --plyr-tooltip-background: #605747;
     --plyr-tooltip-color: black; 
 
     --plyr-control-icon-size: 32px;
 }
 
 body {
-  background-color: rgb(16, 49, 16);
+  background-color: rgb(0, 0, 0);
   background-repeat: no-repeat;
-  font-family: "Open Sans", sans-serif;
 }
 
 /* Layout */
 main {
-  background-color: #b7142fbd; 
+  background-color: #42392a; 
   max-width: 1000px;
   margin-inline: auto;
 }
@@ -45,10 +55,11 @@ main {
 main img {
     max-width: 100%;
     display: block;
+    margin-inline: auto;
 }
 
 main h1 {
-  color: white;
+  color: rgb(92, 114, 83);
   text-align: center;
 }
 
@@ -62,10 +73,16 @@ main article {
 }
 
 main article figure {
-  background: #808080;
-  color: white;
+  background: rgb(63, 78, 57);
+  color: rgb(0, 0, 0);
   padding: 1em;
-  margin: 0;
+  margin: 20px;
+  text-align: justify;
+}
+
+a{
+  color: black;
+  text-align: center;
 }
 
 
