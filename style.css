@@ -41,13 +41,15 @@ p {
 }
 
 body {
-  background-color: rgb(0, 0, 0);
+  background-image: url(assets/foggy\ woods.avif);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Layout */
 main {
-  background-color: #42392a; 
+  /* background-color: #42392a;  */
+  background-color: rgb(47, 34, 18, 74%);
   max-width: 1000px;
   margin-inline: auto;
 }
